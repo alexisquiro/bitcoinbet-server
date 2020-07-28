@@ -1,0 +1,23 @@
+{
+  "name": "api-bit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "star": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "blockchain.info": "^2.12.1",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "pg": "^7.18.1",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
